@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h1>NoteBook</h1>
+    <div id="glass">
+      <div id="left">
+        <div id="l2">To-do List</div>
+        <hr>
+        <h4>->Left click to toggle completed.<br>->Right click to delete todo.</h4>
+        <hr>
+        <div id="link">
+          <div class="link"><a href="index.html">Home</a></div>
+          <div class="link"><a href="secondpage.html">List and Passwords</a></div>
+          <div class="link"><a href="aboutus.html">About Us</a></div>
+          <div class="link"><a href="contactus.html">Contact Us</a></div>
+      </div>
+      </div>
+      <div id="right">
+          <div id="intr">
+          <div id="l1">Enter To The List</div>
+          <form id="form">
+            <div class="frm">
+            <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+            <button type="submit" class="submit"> Submit </button>
+          </div>
+          </form>
+          <div class="scroll">
+            <ul class="todos" id="todos"></ul>
+            </div>
+      </div>
+      </div>
+  </div>
+  <div id="footer">@NoteBook.com All rights reserved</div>
+    <script src="script.js"></script>
+  </body>
+</html>

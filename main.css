@@ -1,0 +1,48 @@
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #00facc, #00a2ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #glass{
+    background: white;
+    min-height: 80vh;
+    width: 70%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.6),rgba(255,255,255,0.2));
+    display: flex;
+  }
+  #left{
+    display: flex;
+    min-height: 100%;
+    width: 35%;
+    background-color: rgba(255,255,255,0.5);
+    align-items: center;
+    justify-content: center;
+  }
+  #right{
+    min-height: 100%;
+    width: 65%;
+  }
+  #con{
+    margin-left: 40px;
+    margin-top: 30%;
+  }
+  h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    
+  }
+  h2{
+    color:#866b72;
+    font-size: 50px;
+    margin-bottom: 2px
+  }
+  h3{
+    color: #6B7A8F;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  
